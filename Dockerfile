@@ -10,7 +10,7 @@ ENV CRON_TIME="0 0 * * *" \
     CRON_TZ=Europe/Moscow \
     INIT_BACKUP=true \
     MONGODB_HOST=mongo \
-    MONGODB_PORT=27017 \
+    MONGODB_PORT=27017
 
 COPY *.sh /
 RUN chmod +x *.sh
